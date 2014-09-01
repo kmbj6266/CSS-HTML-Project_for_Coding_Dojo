@@ -1,0 +1,239 @@
+	* {
+		padding: 0;
+		margin: 0;
+	}
+body{
+	background-color: gray;
+}
+h1{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+h2{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+p {
+  margin-top: 0em;
+  margin-bottom: .5em;
+  line-height: 1em;
+}
+.special_header{
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+.maincontainer {
+	width: 1000px;
+	min-height: 900px;
+	vertical-align: top;
+}
+.bannercontainer{
+	background-color: white;
+	height: 70px;
+}
+.bannercontainer img{
+	margin-left: 15px;
+}
+.bannercontainer p{
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 315px;
+	vertical-align: top;
+	margin-top: 30px;
+}
+.nav {
+	padding-left: 20px;
+	background:linear-gradient(rgb(245, 252, 252), rgb(168, 180, 184), rgb(255, 255, 255));
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	border-top: 1px solid gray;
+	height: 55px;
+}
+.nav li{
+	display:inline-block;  
+	list-style:none;
+	border-left:1px solid gray;
+	padding-left:18px;
+	padding-right: 19px;
+	height: 30px;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.nav a:link{
+	color:gray;
+	text-decoration: none;
+}
+
+.nav li:first-child{
+	margin-left: 20px;
+}
+
+.nav li:last-child{
+	border-right:1px solid gray;
+}
+.maincontent{
+	background-image:url('background_pic.jpg'); 
+	width: 1000px;
+	height: 570px;
+	vertical-align: top;
+}
+.photobanner{
+	width: 1000px;
+	height: 285px;	
+	vertical-align: top;
+}
+.photo {
+	width: 380px;
+	height: 260px;
+	margin-left: 35px;
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.about_lubricants_box{
+	background:linear-gradient(to right, rgb(168, 166, 166), rgb(20, 20, 20));
+	width: 540px;
+	height: 260px;
+	margin-left: 10px;
+	margin-top: 15px;
+	display: inline-block;
+	vertical-align: top;
+}
+.about_lub_header{
+	background: linear-gradient(rgb(255, 236, 187), rgb(252, 182, 1));
+	width: 530px;
+	height: 25px;
+	vertical-align: top;
+	padding-left: 12px;
+	padding-top: 8px;
+}
+.about_lub_content{
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 13px;
+	margin-left: 18px;
+	margin-right: 20px;
+}
+.about_lub_content p{
+	line-height: 13px;
+	margin-bottom: 10px;
+	color: white;
+}
+.tagline{
+	height: 20px;
+	margin-left: 45px;
+	font-size: 10px;
+	font-family: arial, sans-serif;
+	color: rgb(252, 182, 1);
+	display: inline-block;
+	vertical-align: top;
+}
+.tagline img{
+	margin-right: 10px;
+}
+.thumbnail_ads{
+	width: 1000px;
+	height: 255px;
+	display: inline-block;
+	vertical-align: top;
+}
+.header{
+	background: linear-gradient(rgb(255, 236, 187), rgb(252, 182, 1));
+	width: 205px;
+	height: 19px;
+	vertical-align: top;
+	padding-left: 12px;
+	padding-top: 8px;
+	border-bottom: 1px solid black;
+}
+.leftmargin {
+	width: 35px;
+	height: 246px;
+	display: inline-block;
+	vertical-align: top;
+}
+.thumb1{
+	background: linear-gradient(white, white, white, white, rgb(255, 236, 187));
+	width: 217px;
+	height: 246px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1.5px solid black;
+}
+.thumb1 img{
+	width:217px;
+	display: inline-block;
+	vertical-align: top;
+}
+.thumb1 p{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	padding-left: 13px;
+	padding-right: 10px;
+	margin-top: 10px;
+	height: 60px;
+}
+.arrow_box{
+	width: 217px;
+	height: 35px;
+	display: inline-block;
+	vertical-align: top;
+}
+.arrow img{
+	width: 95px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 110px;	
+	margin-top: 8px;
+}
+.thumb2{
+	background: linear-gradient(white, white, white, white, rgb(255, 236, 187));
+	width: 217px;
+	height: 246px;
+	margin-left: 17px;
+	margin-top: 4px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1.5px solid black;
+}
+.thumb2 img{
+	width:217px;
+	display: inline-block;
+	vertical-align: top;
+}
+.thumb2 p{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	padding-left: 13px;
+	padding-right: 5px;
+	margin-top: 10px;
+	height: 60px;
+}
+.arrow2 img{
+	width: 95px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 110px;	
+	margin-top: 8px;
+}
+.arrow3 img{
+	width: 95px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 110px;	
+	margin-top: 8px;
+}
+.arrow4 img{
+	width: 95px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 110px;	
+	margin-top: 8px;
+}
